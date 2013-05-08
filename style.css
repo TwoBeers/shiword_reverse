@@ -1,0 +1,129 @@
+/*
+Theme Name: Shiword Reverse
+Theme URI:
+Description: Child Theme for Shiword 4.02
+Author: TwoBeers Crew
+Author URI: http://www.twobeers.net/
+Template: shiword
+Version: 0.3
+*/
+ 
+@import url("../shiword/style.css");
+
+body {
+	background: #494949 url('images/bg.png') bottom left repeat-x fixed;
+	color: #111111;
+}
+.storycontent table {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+}
+code {
+	background-color: #ddd;
+}
+#head_cont {
+	background: #494949;
+}
+
+#sw_body_inner {
+	background-color: #f2f2f2;
+}
+.posts_narrow {
+	border-right: 1px solid #ccc;
+}
+#maincontent {
+	background-color: transparent;
+}
+#footer {
+	background: #999;
+}
+#footer-widget-area {
+	background-color: #ddd;
+}
+.meta {
+	background-color: #aaa;
+}
+.format-gallery .gallery-thumb,
+.category-gallery .gallery-thumb,
+.format-image .gallery-thumb,
+.category-image .gallery-thumb,
+.img-caption,
+.gallery .gallery-item {
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.post {
+	border-bottom: 2px groove #aaa;
+}
+.letsstick .sticky {
+	background: #eee;
+	border: 1px solid #fff;
+}
+.format-aside, .category-aside {
+	background-color: #fff;
+	border: 1px dashed #ccc;
+}
+.format-status, .category-status {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+.search-form,
+#reply-title {
+	background-color: #aaa;
+	border: 1px solid #fff;
+}
+.fwa_title, .w_title {
+	border-bottom: 2px groove #aaa;
+}
+#sw_slider-wrap {
+	background: rgb(195,195,195); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(195,195,195,1) 0%, rgba(244,244,244,1) 70%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,195,195,1)), color-stop(70%,rgba(244,244,244,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(195,195,195,1) 0%,rgba(244,244,244,1) 70%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(195,195,195,1) 0%,rgba(244,244,244,1) 70%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(195,195,195,1) 0%,rgba(244,244,244,1) 70%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(195,195,195,1) 0%,rgba(244,244,244,1) 70%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c3c3', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid #aaa;
+}
+.sw_slider-fade {
+	background: -moz-linear-gradient(top,  rgba(244,244,244,0) 0%, rgba(244,244,244,1) 70%, rgba(244,244,244,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,0)), color-stop(70%,rgba(244,244,244,1)), color-stop(99%,rgba(244,244,244,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(244,244,244,0) 0%,rgba(244,244,244,1) 70%,rgba(244,244,244,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(244,244,244,0) 0%,rgba(244,244,244,1) 70%,rgba(244,244,244,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(244,244,244,0) 0%,rgba(244,244,244,1) 70%,rgba(244,244,244,1) 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(244,244,244,0) 0%,rgba(244,244,244,1) 70%,rgba(244,244,244,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f4f4f4', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+}
+.comment-body {
+	border: 1px solid #999;
+	background-color: transparent
+}
+.bypostauthor > .comment-body {
+	background-color: #fff;
+}
+.navigate_comments a {
+	background-color: #ddd;
+	border: 1px solid #fff;
+}
+.sw-I-like-it {
+	background-color: #aaa;
+}
+.sw-entry.format-aside,
+.sw-entry.category-aside {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.tb_popular_posts img,
+.tb_latest_commentators img,
+.tb_recent_entries img,
+.tb_latest_commented_posts img {
+	background: none repeat scroll 0 0 #fff;
+	border: none;
+}
